@@ -1,0 +1,11 @@
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\bin\Debug\net8.0\CashFlow.Domain.deps.json
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\bin\Debug\net8.0\CashFlow.Domain.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\bin\Debug\net8.0\CashFlow.Domain.pdb
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.AssemblyInfoInputs.cache
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.AssemblyInfo.cs
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.csproj.CoreCompileInputs.cache
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\refint\CashFlow.Domain.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.pdb
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\ref\CashFlow.Domain.dll
