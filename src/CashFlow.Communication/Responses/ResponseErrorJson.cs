@@ -1,11 +1,17 @@
 ﻿namespace CashFlow.Communication.Responses;
 public class ResponseErrorJson
 {
-    public string ErrorMessage { get; set; } = string.Empty;
+    public List<string> ErrorMessages { get; set; }
 
-    //O contrutor obriga que ResponseErrorJson passe um valor
+    //passa uma mensagem de erro
+    //recebe uma string e tem que transformar em uma lista
     public ResponseErrorJson(string errorMessage)
     {
-        ErrorMessage = errorMessage;
+        ErrorMessages = new List<string> { errorMessage };
+    }
+    //passa uma lista de erros
+    public ResponseErrorJson(List<string> errorMessages)
+    {
+        ErrorMessages = errorMessages;
     }
 }

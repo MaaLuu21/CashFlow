@@ -43,3 +43,5 @@ F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\refint\CashF
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.pdb
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.genruntimeconfig.cache
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\ref\CashFlow.Api.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\FluentValidation.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.sourcelink.json

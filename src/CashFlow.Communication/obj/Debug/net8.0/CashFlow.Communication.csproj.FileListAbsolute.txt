@@ -9,3 +9,4 @@ F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\Ca
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\refint\CashFlow.Communication.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.pdb
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\ref\CashFlow.Communication.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.sourcelink.json

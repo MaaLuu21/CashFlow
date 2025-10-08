@@ -9,3 +9,4 @@ F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\CashFl
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\refint\CashFlow.Exception.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\CashFlow.Exception.pdb
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\ref\CashFlow.Exception.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\CashFlow.Exception.sourcelink.json
