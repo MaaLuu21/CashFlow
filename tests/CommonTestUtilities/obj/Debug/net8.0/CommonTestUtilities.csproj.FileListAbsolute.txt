@@ -1,0 +1,16 @@
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CommonTestUtilities.deps.json
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CommonTestUtilities.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CommonTestUtilities.pdb
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Communication.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Communication.pdb
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.csproj.AssemblyReference.cache
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.GeneratedMSBuildEditorConfig.editorconfig
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.AssemblyInfoInputs.cache
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.AssemblyInfo.cs
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.csproj.CoreCompileInputs.cache
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.sourcelink.json
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTe.14C365E1.Up2Date
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\refint\CommonTestUtilities.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.pdb
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\ref\CommonTestUtilities.dll
