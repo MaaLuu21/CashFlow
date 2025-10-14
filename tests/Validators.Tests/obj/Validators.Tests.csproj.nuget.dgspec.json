@@ -395,6 +395,9 @@
               "F:\\ESTUDOS\\C#\\PORTIFOLIO\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
                 "projectPath": "F:\\ESTUDOS\\C#\\PORTIFOLIO\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj"
               },
+              "F:\\ESTUDOS\\C#\\PORTIFOLIO\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj": {
+                "projectPath": "F:\\ESTUDOS\\C#\\PORTIFOLIO\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj"
+              },
               "F:\\ESTUDOS\\C#\\PORTIFOLIO\\CashFlow\\tests\\CommonTestUtilities\\CommonTestUtilities.csproj": {
                 "projectPath": "F:\\ESTUDOS\\C#\\PORTIFOLIO\\CashFlow\\tests\\CommonTestUtilities\\CommonTestUtilities.csproj"
               }
@@ -417,6 +420,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.2.0, 7.2.0]"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
