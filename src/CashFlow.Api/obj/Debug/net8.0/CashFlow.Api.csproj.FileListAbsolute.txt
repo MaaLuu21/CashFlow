@@ -48,3 +48,14 @@ F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\fr\CashFlow.Exception.resources.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\pt-PT\CashFlow.Exception.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\MySqlConnector.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
