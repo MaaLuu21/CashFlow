@@ -7,18 +7,15 @@ namespace CashFlow.Infrastructure.DataAccess.Repositories;
 //e para garantir no projeto de api não utilize essa classe
 internal class ExpensesRepository : IExpensesRepository
 {
-    private readonly CashFlowDbContext _dbContext;  
+    private readonly CashFlowDbContext _dbContext;
 
     public ExpensesRepository(CashFlowDbContext dbContext)
     {
-       _dbContext = dbContext;
+        _dbContext = dbContext;
     }
-    public void Add(Expense expense)
+    public async Task Add(Expense expense)
     {
-
         //adiciona
-        _dbContext.Expenses.Add(expense);
-        //salva no bd
-        _dbContext.SaveChanges();
+        await _dbContext.Expenses.AddAsync(expense);
     }
 }

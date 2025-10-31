@@ -11,11 +11,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//adicionando o filtro de exce��es
+//adicionando o filtro de exceçoes
 builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
 
 //adicona a injeção de dependencia para criar as despeesas
-builder.Services.AddInfrastructure();
+builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
 
 var app = builder.Build();
