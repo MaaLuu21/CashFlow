@@ -71,6 +71,36 @@
             }
           }
         }
+      },
+      "get": {
+        "tags": [
+          "Expenses"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseExpensesJson"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseExpensesJson"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseExpensesJson"
+                }
+              }
+            }
+          },
+          "204": {
+            "description": "No Content"
+          }
+        }
       }
     }
   },
@@ -124,12 +154,43 @@
         },
         "additionalProperties": false
       },
+      "ResponseExpensesJson": {
+        "type": "object",
+        "properties": {
+          "expenses": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ResponseShortExpenseJson"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "ResponseRegisteredExpenseJson": {
         "type": "object",
         "properties": {
           "title": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ResponseShortExpenseJson": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
