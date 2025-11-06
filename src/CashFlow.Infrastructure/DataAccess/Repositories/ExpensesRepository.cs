@@ -30,4 +30,9 @@ internal class ExpensesRepository : IExpensesRepository
         //que devolve dados se pergunte se quem utiliza a função
         //pode alterar dados nessa entidade se fr não use AsNoTracking        
     }
+
+    public async Task<Expense?> GetById(long id)
+    {
+        return await _dbContext.Expenses.AsNoTracking().FirstOrDefaultAsync(e => e.Id == id);
+    }
 }

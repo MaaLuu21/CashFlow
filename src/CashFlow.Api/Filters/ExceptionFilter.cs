@@ -22,25 +22,30 @@ public class ExceptionFilter : IExceptionFilter
 
     private void HandleProjectException(ExceptionContext context)
     {
+        //Como is apenas verifica, você ainda precisa converter a exceção para o tipo correto.
+        //realizando um cast permitindo acessar propriedades específicas, como ex.Errors
         //verificando o tipo da exceção que ocorreu.
-        if (context.Exception is ErrorOnValidationException)
+        if (context.Exception is ErrorOnValidationException errorOnValidation)
         {
-            //Como is apenas verifica, você ainda precisa converter a exceção para o tipo correto.
-            //realizando um cast permitindo acessar propriedades específicas, como ex.Errors
-            var ex = (ErrorOnValidationException)context.Exception;
-
-            var errorResponse = new ResponseErrorJson(ex.Errors);
+            var errorResponse = new ResponseErrorJson(errorOnValidation.Errors);
 
             context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
             context.Result = new BadRequestObjectResult(errorResponse);
+        }
+        else if (context.Exception is NotFoundException notFoundException )
+        {
+            var errorResponse = new ResponseErrorJson(notFoundException.Message);
+
+            context.HttpContext.Response.StatusCode = StatusCodes.Status404NotFound;
+            context.Result = new NotFoundObjectResult(errorResponse);
         }
         else
-        {
-            var errorResponse = new ResponseErrorJson(context.Exception.Message);
+                {
+                    var errorResponse = new ResponseErrorJson(context.Exception.Message);
 
-            context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
-            context.Result = new BadRequestObjectResult(errorResponse);
-        }
+                    context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
+                    context.Result = new BadRequestObjectResult(errorResponse);
+                }
     }
     private void ThrowUnkowError(ExceptionContext context)
     {
