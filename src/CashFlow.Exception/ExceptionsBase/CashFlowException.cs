@@ -6,4 +6,8 @@ public abstract class CashFlowException : SystemException
     {
         
     }
+    //para seguir o principio O, aberto a extensão e fechado a modificação
+    public abstract int StatusCode { get; }
+    //forçar todas as classes que extenderem de cashFlowException a implementar um GetErrors
+    public abstract List<string> GetErros();
 }

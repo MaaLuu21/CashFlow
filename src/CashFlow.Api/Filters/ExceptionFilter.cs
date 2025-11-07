@@ -22,10 +22,17 @@ public class ExceptionFilter : IExceptionFilter
 
     private void HandleProjectException(ExceptionContext context)
     {
+        //se veio pra essa função é um cashFlowException
+        var cashFlowException = (CashFlowException)context.Exception;
+        var errorResponse = new ResponseErrorJson(cashFlowException.GetErros());
+
+
+        context.HttpContext.Response.StatusCode = cashFlowException.StatusCode;
+        context.Result = new ObjectResult(errorResponse);
         //Como is apenas verifica, você ainda precisa converter a exceção para o tipo correto.
         //realizando um cast permitindo acessar propriedades específicas, como ex.Errors
         //verificando o tipo da exceção que ocorreu.
-        if (context.Exception is ErrorOnValidationException errorOnValidation)
+        /*if (context.Exception is ErrorOnValidationException errorOnValidation)
         {
             var errorResponse = new ResponseErrorJson(errorOnValidation.Errors);
 
@@ -46,7 +53,9 @@ public class ExceptionFilter : IExceptionFilter
                     context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
                     context.Result = new BadRequestObjectResult(errorResponse);
                 }
+        */
     }
+
     private void ThrowUnkowError(ExceptionContext context)
     {
         var errorResponse = new ResponseErrorJson(ResourceErrorMessages.UNKNOWN_ERROR);

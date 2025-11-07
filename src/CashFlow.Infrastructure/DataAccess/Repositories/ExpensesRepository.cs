@@ -6,7 +6,7 @@ namespace CashFlow.Infrastructure.DataAccess.Repositories;
 
 //continua como internal infrastructure pode enxergar domain (por meio de dependencia)
 //e para garantir no projeto de api não utilize essa classe
-internal class ExpensesRepository : IExpensesRepository
+internal class ExpensesRepository : IExpensesReadOnlyRepository, IExpensesWriteOnlyRepository
 {
     private readonly CashFlowDbContext _dbContext;
 
@@ -34,5 +34,9 @@ internal class ExpensesRepository : IExpensesRepository
     public async Task<Expense?> GetById(long id)
     {
         return await _dbContext.Expenses.AsNoTracking().FirstOrDefaultAsync(e => e.Id == id);
+    }
+    public void Delete(Expense expense)
+    {
+        _dbContext.Expenses.Remove(expense);
     }
 }
