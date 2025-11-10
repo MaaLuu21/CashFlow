@@ -6,7 +6,7 @@ namespace CommonTestUtilities.requests;
 //contrutor de uma requestResgisterExpenseJson
 public class RequestResgisterExpenseJsonBuilder
 {
-    public static RequestResgisterExpenseJson Build()
+    public static RequestExpenseJson Build()
     {
         //usando o pacote bogus
         //Pode se usar tanto assim
@@ -19,7 +19,7 @@ public class RequestResgisterExpenseJsonBuilder
         }; 
         */
         //quanto assim
-        return new Faker<RequestResgisterExpenseJson>()
+        return new Faker<RequestExpenseJson>()
             .RuleFor(r => r.Title, faker => faker.Commerce.ProductName())
             .RuleFor(r => r.Description, faker => faker.Commerce.ProductDescription())
             .RuleFor(r => r.Date, faker => faker.Date.Past())

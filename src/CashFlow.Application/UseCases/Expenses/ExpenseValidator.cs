@@ -2,10 +2,10 @@
 using CashFlow.Exception;
 using FluentValidation;
 
-namespace CashFlow.Application.UseCases.Expenses.Register;
-public class ResgisterExpenseValidator : AbstractValidator<RequestResgisterExpenseJson>
+namespace CashFlow.Application.UseCases.Expenses;
+public class ExpenseValidator : AbstractValidator<RequestExpenseJson>
 {
-    public ResgisterExpenseValidator()
+    public ExpenseValidator()
     {
         //resource usado para evitar a duplicação de código
         //pode haver mais de uma classe que exiba uma exceção e ai para não duplicar usa o resource

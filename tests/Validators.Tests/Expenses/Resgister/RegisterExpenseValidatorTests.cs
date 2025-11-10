@@ -1,4 +1,4 @@
-﻿using CashFlow.Application.UseCases.Expenses.Register;
+﻿using CashFlow.Application.UseCases.Expenses;
 using CashFlow.Communication.Enums;
 using CashFlow.Exception;
 using CommonTestUtilities.requests;
@@ -11,7 +11,7 @@ public class RegisterExpenseValidatorTests
     public void Success()
     {
         //Arrange - parte de configurar as instancias
-        var validator = new ResgisterExpenseValidator();
+        var validator = new ExpenseValidator();
         //classe é static ent não precisa instanciar
         var request = RequestResgisterExpenseJsonBuilder.Build();
 
@@ -30,7 +30,7 @@ public class RegisterExpenseValidatorTests
     {
         //Arrange - parte de configurar as instancias
 
-        var validator = new ResgisterExpenseValidator();
+        var validator = new ExpenseValidator();
         //classe é static ent não precisa instanciar
         var request = RequestResgisterExpenseJsonBuilder.Build();
         request.Title = title;
@@ -50,7 +50,7 @@ public class RegisterExpenseValidatorTests
     public void Error_Date_Future()
     {
         //Arrange
-        var validator = new ResgisterExpenseValidator();
+        var validator = new ExpenseValidator();
         var request = RequestResgisterExpenseJsonBuilder.Build();
         request.Date = DateTime.UtcNow.AddDays(1);//Adiciona um dia e retorna uma data futura
 
@@ -67,7 +67,7 @@ public class RegisterExpenseValidatorTests
     public void Error_Payment_Type_Invalid()
     {
         //Arrange
-        var validator = new ResgisterExpenseValidator();
+        var validator = new ExpenseValidator();
         var request = RequestResgisterExpenseJsonBuilder.Build();
         request.PaymentType = (PaymentsType)700;//Tem que fazer um casting
 
@@ -89,7 +89,7 @@ public class RegisterExpenseValidatorTests
     public void Error_Amount_Invalid(decimal amount)
     {
         //Arrange
-        var validator = new ResgisterExpenseValidator();
+        var validator = new ExpenseValidator();
         var request = RequestResgisterExpenseJsonBuilder.Build();
         request.Amount = amount;
 
