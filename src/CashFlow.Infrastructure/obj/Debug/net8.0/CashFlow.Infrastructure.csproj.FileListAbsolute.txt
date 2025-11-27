@@ -14,3 +14,6 @@ F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\r
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.pdb
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\ref\CashFlow.Infrastructure.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.sourcelink.json
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Infrastructure\bin\Debug\net8.0\fr\CashFlow.Domain.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Infrastructure\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Infrastructure\bin\Debug\net8.0\pt-PT\CashFlow.Domain.resources.dll

@@ -60,3 +60,14 @@ F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Ex
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\MySqlConnector.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\AutoMapper.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\ClosedXML.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\ClosedXML.Parser.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\ExcelNumberFormat.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\RBush.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\SixLabors.Fonts.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\System.IO.Packaging.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\fr\CashFlow.Domain.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\pt-PT\CashFlow.Domain.resources.dll
