@@ -118,18 +118,30 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AMOUNT" xml:space="preserve">
-    <value>Amount</value>
+    <value>Montante</value>
+  </data>
+  <data name="CASH" xml:space="preserve">
+    <value>Espèces</value>
+  </data>
+  <data name="CREDIT_CARD" xml:space="preserve">
+    <value>Carte de crédit</value>
   </data>
   <data name="DATE" xml:space="preserve">
     <value>Date</value>
   </data>
+  <data name="DEBIT_CARD" xml:space="preserve">
+    <value>Carte de débit</value>
+  </data>
   <data name="DESCRIPTION" xml:space="preserve">
     <value>Description</value>
   </data>
+  <data name="ELETRONIC_TRANSFER" xml:space="preserve">
+    <value>Virement électronique</value>
+  </data>
   <data name="PAYMENT_TYPE" xml:space="preserve">
-    <value>Payment Type</value>
+    <value>Type de Paiement</value>
   </data>
   <data name="TITLE" xml:space="preserve">
-    <value>Title</value>
+    <value>Titre</value>
   </data>
 </root>

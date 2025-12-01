@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CashFlow.Domain.Reports {
+namespace CashFlow.Domain.Reports.ReportGeneration {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace CashFlow.Domain.Reports {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CashFlow.Domain.Reports.ResourceReportGenerationMessages", typeof(ResourceReportGenerationMessages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CashFlow.Domain.Reports.ReportGeneration.ResourceReportGenerationMessages", typeof(ResourceReportGenerationMessages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -70,6 +70,24 @@ namespace CashFlow.Domain.Reports {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cash.
+        /// </summary>
+        public static string CASH {
+            get {
+                return ResourceManager.GetString("CASH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Credit Card.
+        /// </summary>
+        public static string CREDIT_CARD {
+            get {
+                return ResourceManager.GetString("CREDIT_CARD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Date.
         /// </summary>
         public static string DATE {
@@ -79,11 +97,29 @@ namespace CashFlow.Domain.Reports {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Debit Card.
+        /// </summary>
+        public static string DEBIT_CARD {
+            get {
+                return ResourceManager.GetString("DEBIT_CARD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Description.
         /// </summary>
         public static string DESCRIPTION {
             get {
                 return ResourceManager.GetString("DESCRIPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Eletroninic Transfer.
+        /// </summary>
+        public static string ELETRONIC_TRANSFER {
+            get {
+                return ResourceManager.GetString("ELETRONIC_TRANSFER", resourceCulture);
             }
         }
         

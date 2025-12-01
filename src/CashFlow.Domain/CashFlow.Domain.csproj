@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="Reports\ResourceReportGenerationMessages.Designer.cs">
+    <Compile Update="Reports\ReportGeneration\ResourceReportGenerationMessages.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>ResourceReportGenerationMessages.resx</DependentUpon>
@@ -15,16 +15,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Reports\ResourceReportGenerationMessages.fr.resx">
+    <EmbeddedResource Update="Reports\ReportGeneration\ResourceReportGenerationMessages.fr.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Reports\ResourceReportGenerationMessages.pt-BR.resx">
+    <EmbeddedResource Update="Reports\ReportGeneration\ResourceReportGenerationMessages.pt-BR.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Reports\ResourceReportGenerationMessages.pt-PT.resx">
+    <EmbeddedResource Update="Reports\ReportGeneration\ResourceReportGenerationMessages.pt-PT.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Reports\ResourceReportGenerationMessages.resx">
+    <EmbeddedResource Update="Reports\ReportGeneration\ResourceReportGenerationMessages.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ResourceReportGenerationMessages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
