@@ -71,3 +71,17 @@ F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\System.IO.Pa
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\fr\CashFlow.Domain.resources.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\pt-PT\CashFlow.Domain.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\MigraDoc.DocumentObjectModel.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\MigraDoc.Rendering.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\MigraDoc.RtfRendering.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\PdfSharp.Charting.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\PdfSharp.Quality.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\PdfSharp.Snippets.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\PdfSharp.System.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\PdfSharp.WPFonts.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\PdfSharp.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\de\MigraDoc.DocumentObjectModel.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\de\MigraDoc.Rendering.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\de\MigraDoc.RtfRendering.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\de\PdfSharp.Charting.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\de\PdfSharp.resources.dll
