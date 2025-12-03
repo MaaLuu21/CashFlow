@@ -24,3 +24,4 @@ F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-P
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\fr\CashFlow.Domain.resources.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-PT\CashFlow.Domain.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\Logo\hello.png
