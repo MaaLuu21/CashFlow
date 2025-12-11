@@ -9,15 +9,15 @@ A arquitetura da **API baseia-se em REST**, utilizando métodos **HTTP** padrão
 Dentre os pacotes NuGet utilizados, o **AutoMapper** é o responsável pelo mapeamento entre objetos de domínio e requisição/resposta, reduzindo a necessidade de código repetitivo e manual. O **FluentAssertions** é utilizado nos testes de unidade para tornar as verificações mais legíveis, ajudando a escrever testes claros e compreensíveis. Para as validações, o **FluentValidation** é usado para implementar regras de validação de forma simples e intuitiva nas classes de requisições, mantendo o código limpo e fácil de manter. Por fim, o **EntityFramework** atua como um ORM que simplifica as interações com o banco de dados, permitindo o uso de objetos .NET para manipular dados diretamente, sem a necessidade de lidar com consultas **SQL**.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/.NET-8%2B-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Versão-1.0-blueviolet?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Contribuições-Bem%20vindas-brightgreen?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-%20desenvolvimento-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Versão-1.0-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-%20desenvolvimento-red?style=for-the-badge" />
 </p>
-
-### Funcionalidades
-
+          
+### 🛠️Funcionalidades
+          
 - **Domain-Driven Design (DDD)**: Organização modular que torna mais simples compreender e manter o domínio da aplicação.
 - **Testes de Unidade**: Cobertura de testes com FluentAssertions para assegurar a correta funcionalidade e a qualidade do código.
 - **Geração de Relatórios**: Possibilidade de gerar relatórios completos em PDF e Excel, proporcionando uma visualização clara e eficiente das despesas.
@@ -31,23 +31,23 @@ Dentre os pacotes NuGet utilizados, o **AutoMapper** é o responsável pelo mape
 - MySql Server
 
 1. 💻 **Clonando o repositório**
-   ```bash
-   git clone https://github.com/MaaLuu21/CashFlow
-   ```
-
-2. **Preencha o `appsettings.Development.json` ex:**
-    ```json
-    {
-      "ConnectionStrings": {
-        "connection": "Server=localhost;Database=cashflowdb;Uid=root;Pwd=yourpwd;"
-      }
-    }
-    ```
-
-3. 📂 **Acesse o diretório do projeto**
     ```bash
-    cd C:\CashFlow
+    git clone https://github.com/MaaLuu21/CashFlow
     ```
+          
+2. **Preencha o `appsettings.Development.json` ex:**
+      ```json
+        {
+        "ConnectionStrings": {
+          "connection": "Server=localhost;Database=cashflowdb;Uid=root;Pwd=yourpwd;"
+          }
+        }
+      ```
+                                              
+3. 📂 **Acesse o diretório do projeto**
+      ```bash
+        cd C:\CashFlow
+      ```
 4. 🧰 **Restaure as dependências e compile**
     ```bash
     dotnet restore
@@ -57,3 +57,5 @@ Dentre os pacotes NuGet utilizados, o **AutoMapper** é o responsável pelo mape
     ```bash
     dotnet run
     ```
+                                                                                               
+                                                                                   
