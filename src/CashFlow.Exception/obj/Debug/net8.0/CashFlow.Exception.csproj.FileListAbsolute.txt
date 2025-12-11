@@ -21,3 +21,6 @@ F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\CashFl
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\fr\CashFlow.Exception.resources.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\pt-PT\CashFlow.Exception.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\fr\CashFlow.Exception.resources.cs
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\pt-BR\CashFlow.Exception.resources.cs
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Exception\obj\Debug\net8.0\pt-PT\CashFlow.Exception.resources.cs

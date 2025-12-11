@@ -21,3 +21,6 @@ F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.Reports.ReportGeneration.ResourceReportGenerationMessages.fr.resources
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.Reports.ReportGeneration.ResourceReportGenerationMessages.pt-BR.resources
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.Reports.ReportGeneration.ResourceReportGenerationMessages.pt-PT.resources
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\fr\CashFlow.Domain.resources.cs
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\pt-BR\CashFlow.Domain.resources.cs
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\pt-PT\CashFlow.Domain.resources.cs
