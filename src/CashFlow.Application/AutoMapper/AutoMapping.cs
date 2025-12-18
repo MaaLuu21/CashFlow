@@ -16,6 +16,7 @@ public class AutoMapping : Profile
     {
         //(origem (ResponseRegisteredExpenseJson)  - destino (Expense)
         CreateMap<RequestExpenseJson, Expense>();
+        CreateMap<RequestRegisterUserJson, User>();
     }
     private void EntityToResponse()
     {
