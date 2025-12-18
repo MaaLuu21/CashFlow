@@ -16,7 +16,8 @@ public class AutoMapping : Profile
     {
         //(origem (ResponseRegisteredExpenseJson)  - destino (Expense)
         CreateMap<RequestExpenseJson, Expense>();
-        CreateMap<RequestRegisterUserJson, User>();
+        CreateMap<RequestRegisterUserJson, User>()
+            .ForMember(dest => dest.Password, config => config.Ignore());//ignora a password no mapeamento
     }
     private void EntityToResponse()
     {
