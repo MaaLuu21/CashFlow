@@ -160,3 +160,6 @@ F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Id
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

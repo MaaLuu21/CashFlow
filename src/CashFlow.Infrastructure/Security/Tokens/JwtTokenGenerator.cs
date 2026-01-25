@@ -17,7 +17,7 @@ public class JwtTokenGenerator : IAccessTokenGenerator
         _signingKey = signingKey;
     }
 
-    public string Genarete(User user)
+    public string Generate(User user)
     {
         var claims = new List<Claim>
         {
