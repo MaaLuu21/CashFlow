@@ -14,8 +14,8 @@ public class LoginController : ControllerBase
     public async Task<IActionResult> Login([FromServices] IDoLoginUseCase useCase,
                                            [FromBody] RequestLoginJson request)
     {
-        var respons = await useCase.Execute(request);
+        var response = await useCase.Execute(request);
 
-        return Ok();
+        return Ok(response);
     }
 }
