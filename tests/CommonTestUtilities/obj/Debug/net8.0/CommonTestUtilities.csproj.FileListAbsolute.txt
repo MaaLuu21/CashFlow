@@ -14,3 +14,16 @@ F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\Com
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\refint\CommonTestUtilities.dll
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.pdb
 F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\ref\CommonTestUtilities.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\Logo\hello.png
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Application.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Domain.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Exception.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Application.pdb
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Domain.pdb
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Exception.pdb
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\fr\CashFlow.Domain.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\pt-PT\CashFlow.Domain.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\fr\CashFlow.Exception.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
+F:\ESTUDOS\C#\PORTIFOLIO\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\pt-PT\CashFlow.Exception.resources.dll
