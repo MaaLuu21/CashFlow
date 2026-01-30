@@ -10,7 +10,6 @@ public class PasswordValidator<T> : PropertyValidator<T, string>
 
     public override string Name => "PasswordValidator";
 
-    //ensina como devolver o AppendArgument
     protected override string GetDefaultMessageTemplate(string errorCode)
     {
         return $"{{{ERROR_MESSAGE_KEY}}}";
@@ -24,7 +23,7 @@ public class PasswordValidator<T> : PropertyValidator<T, string>
             return false;
         }
 
-        if(password.Length < 8)
+        if (password.Length < 8)
         {
             context.MessageFormatter.AppendArgument(ERROR_MESSAGE_KEY, ResourceErrorMessages.INVALID_PASSWORD);
             return false;

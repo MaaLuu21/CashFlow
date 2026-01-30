@@ -3,6 +3,7 @@ using CashFlow.Domain.Extensions;
 using CashFlow.Domain.Reports;
 using CashFlow.Domain.Reports.ReportGeneration;
 using CashFlow.Domain.Repositories.Expenses;
+using CashFlow.Domain.Services.LogedUser;
 using ClosedXML.Excel;
 
 namespace CashFlow.Application.UseCases.Expenses.Reports.Excel;
@@ -11,15 +12,20 @@ public class GenerateExpensesReportExcelUseCase : IGenerateExpensesReportExcelUs
     private const string CURRENCY_SYMBOL = "$";
 
     private readonly IExpensesReadOnlyRepository _repository;
+    private readonly ILogedUser _logedUser;
 
-    public GenerateExpensesReportExcelUseCase(IExpensesReadOnlyRepository repository)
+    public GenerateExpensesReportExcelUseCase(IExpensesReadOnlyRepository repository,
+                                              ILogedUser logedUser)
     {
         _repository = repository;
+        _logedUser = logedUser;
     }
 
     public async Task<byte[]> Execute(DateOnly month)
     {
-        var expenses = await _repository.FilterByMonth(month);
+        var logedUser = await _logedUser.Get();
+
+        var expenses = await _repository.FilterByMonth(logedUser, month);
         if(expenses.Count == 0)
         {
             return [];
@@ -27,7 +33,7 @@ public class GenerateExpensesReportExcelUseCase : IGenerateExpensesReportExcelUs
 
         var workbook = new XLWorkbook();
 
-        workbook.Author = "Malu Paes";
+        workbook.Author = logedUser.Name;
         workbook.Style.Font.FontSize = 13;
         workbook.Style.Font.FontName = "Times New Roman";
 

@@ -4,5 +4,5 @@ namespace CashFlow.Domain.Repositories.Expenses;
 public interface IExpensesWriteOnlyRepository
 {
     Task Add(Expense expense);
-    void Delete (Expense expense);
+    Task Delete (long id);
 }
