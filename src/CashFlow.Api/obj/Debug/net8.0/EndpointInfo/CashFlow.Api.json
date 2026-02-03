@@ -360,7 +360,7 @@
         "parameters": [
           {
             "name": "month",
-            "in": "header",
+            "in": "query",
             "schema": {
               "type": "string",
               "format": "date"
@@ -463,6 +463,33 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/ResponseErrorJson"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseUserProfileJson"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseUserProfileJson"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ResponseUserProfileJson"
                 }
               }
             }
@@ -576,7 +603,7 @@
             "type": "number",
             "format": "double"
           },
-          "paymentetype": {
+          "paymentType": {
             "$ref": "#/components/schemas/PaymentsType"
           }
         },
@@ -633,6 +660,20 @@
           "amount": {
             "type": "number",
             "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ResponseUserProfileJson": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

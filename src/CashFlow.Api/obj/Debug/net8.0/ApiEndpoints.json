@@ -293,5 +293,25 @@
         "StatusCode": 400
       }
     ]
+  },
+  {
+    "ContainingType": "CashFlow.Api.Controllers.UserController",
+    "Method": "GetProfile",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ResponseUserProfileJson",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      }
+    ]
   }
 ]
