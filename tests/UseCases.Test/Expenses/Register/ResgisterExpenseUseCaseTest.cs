@@ -1,4 +1,5 @@
 ﻿using CashFlow.Application.UseCases.Expenses.Register;
+using CashFlow.Communication.Requests;
 using CashFlow.Exception;
 using CashFlow.Exception.ExceptionsBase;
 using CommonTestUtilities.Entities;
@@ -16,7 +17,7 @@ public class ResgisterExpenseUseCaseTest
     public async Task Success()
     {
         var logedUser = UserBuilder.Build();
-        var request = RequestResgisterExpenseJsonBuilder.Build();
+        var request = RequestExpenseJsonBuilder.Build();
         var useCase = CreateUseCase(logedUser);
 
         var result = await useCase.Execute(request);
@@ -31,7 +32,7 @@ public class ResgisterExpenseUseCaseTest
     {
         var logedUser = UserBuilder.Build();
 
-        var request = RequestResgisterExpenseJsonBuilder.Build();
+        var request = RequestExpenseJsonBuilder.Build();
         request.Title = string.Empty;
 
         var useCase = CreateUseCase(logedUser);

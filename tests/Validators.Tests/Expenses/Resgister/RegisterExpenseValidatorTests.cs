@@ -13,7 +13,7 @@ public class RegisterExpenseValidatorTests
         //Arrange - parte de configurar as instancias
         var validator = new ExpenseValidator();
         //classe é static ent não precisa instanciar
-        var request = RequestResgisterExpenseJsonBuilder.Build();
+        var request = RequestExpenseBuilder.Build();
 
         //Act validar a ação
         var result = validator.Validate(request);
@@ -32,7 +32,7 @@ public class RegisterExpenseValidatorTests
 
         var validator = new ExpenseValidator();
         //classe é static ent não precisa instanciar
-        var request = RequestResgisterExpenseJsonBuilder.Build();
+        var request = RequestExpenseBuilder.Build();
         request.Title = title;
        // request.Amount = -1;// testar erro
 
@@ -51,7 +51,7 @@ public class RegisterExpenseValidatorTests
     {
         //Arrange
         var validator = new ExpenseValidator();
-        var request = RequestResgisterExpenseJsonBuilder.Build();
+        var request = RequestExpenseBuilder.Build();
         request.Date = DateTime.UtcNow.AddDays(1);//Adiciona um dia e retorna uma data futura
 
 
@@ -68,7 +68,7 @@ public class RegisterExpenseValidatorTests
     {
         //Arrange
         var validator = new ExpenseValidator();
-        var request = RequestResgisterExpenseJsonBuilder.Build();
+        var request = RequestExpenseBuilder.Build();
         request.PaymentType = (PaymentsType)700;//Tem que fazer um casting
 
         //Act validar a ação
@@ -90,7 +90,7 @@ public class RegisterExpenseValidatorTests
     {
         //Arrange
         var validator = new ExpenseValidator();
-        var request = RequestResgisterExpenseJsonBuilder.Build();
+        var request = RequestExpenseBuilder.Build();
         request.Amount = amount;
 
         //Act validar a ação

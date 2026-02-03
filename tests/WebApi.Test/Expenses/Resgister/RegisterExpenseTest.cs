@@ -21,13 +21,13 @@ public class RegisterExpenseTest : CashFlowClassFixture
 
     public RegisterExpenseTest(CustomWebApplicationFactory webApplicationFactory) : base(webApplicationFactory)
     {
-        _token = webApplicationFactory.GetToken();
+        _token = webApplicationFactory.User_Team_Member.GetToken();
     }
 
     [Fact]
     public async Task Success()
     {
-        var request = RequestResgisterExpenseJsonBuilder.Build();
+        var request = RequestExpenseJsonBuilder.Build();
 
         var result = await DoPost(requestUri: METHOD, request: request, token: _token);
 
@@ -44,7 +44,7 @@ public class RegisterExpenseTest : CashFlowClassFixture
     [ClassData(typeof(CultureInlineDataTest))]
     public async Task Error_Title_Empty(string culture)
     {
-        var request = RequestResgisterExpenseJsonBuilder.Build();
+        var request = RequestExpenseJsonBuilder.Build();
         request.Title = string.Empty;
 
         var result = await DoPost(requestUri: METHOD, request: request, culture: culture, token: _token);
