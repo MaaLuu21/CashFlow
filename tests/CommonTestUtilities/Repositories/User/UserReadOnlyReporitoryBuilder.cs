@@ -13,6 +13,11 @@ public class UserReadOnlyReporitoryBuilder
 
     public IUserReadOnlyRepository Build() => _repository.Object;
 
+    public void ExistActiveUserWithEmail(string email)
+    {
+        _repository.Setup(user => user.ExistActiveUserWithEmail(email)).ReturnsAsync(true);
+    }
+
     public UserReadOnlyReporitoryBuilder GetUserByEmail(CashFlow.Domain.Entities.User user)
     {
         _repository

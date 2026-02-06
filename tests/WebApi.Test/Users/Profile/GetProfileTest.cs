@@ -4,7 +4,7 @@ using System.Text.Json;
 namespace WebApi.Test.Users.Profile;
 public class GetProfileTest : CashFlowClassFixture
 {
-    private const string METHOD = "api/Expenses";
+    private const string METHOD = "api/User";
 
     private readonly string _token;
     private readonly string _userName;
@@ -24,10 +24,6 @@ public class GetProfileTest : CashFlowClassFixture
         var result = await DoGet(METHOD, _token);
 
         result.StatusCode.Should().Be(System.Net.HttpStatusCode.OK);
-
-        //confimar se foi deletado
-        result = await DoGet(requestUri: $"{METHOD}/{_expenseId}", token: _token);
-
 
         var body = await result.Content.ReadAsStreamAsync();
 
