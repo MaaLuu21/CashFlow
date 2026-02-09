@@ -11,4 +11,5 @@ public class Expense
     public PaymentsType PaymentType { get; set; }
     public long UserId { get; set; }
     public User User { get; set; } = default!;
+    public ICollection<Tag> Tags { get; set; } = [];
 }

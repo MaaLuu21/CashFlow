@@ -1,5 +1,6 @@
 ﻿using CashFlow.Application.UseCases.Expenses.Update;
 using CashFlow.Application.UseCases.Users.ChangePassword;
+using CashFlow.Application.UseCases.Users.Delete;
 using CashFlow.Application.UseCases.Users.GetProfile;
 using CashFlow.Application.UseCases.Users.Register;
 using CashFlow.Application.UseCases.Users.Update;
@@ -58,5 +59,16 @@ public class UserController : ControllerBase
         await useCase.Execute(request);
 
         return NoContent();
+    }
+
+    [HttpDelete]
+    [Authorize]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    public async Task<IActionResult> Delete([FromServices] IDeleteUserAccountUseCase useCase)
+    {
+
+        await useCase.Execute();
+
+        return NoContent(); 
     }
 }
