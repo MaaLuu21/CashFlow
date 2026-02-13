@@ -35,7 +35,7 @@ public class DeleteExpenseTest : CashFlowClassFixture
     [ClassData(typeof(CultureInlineDataTest))]
     public async Task Error_Expense_Not_Found(string culture)
     {
-        var result = await DoDelete(requestUri: $"{METHOD}/{_expenseId}", token: _token, culture: culture);
+        var result = await DoDelete(requestUri: $"{METHOD}/1000", token: _token, culture: culture);
 
         result.StatusCode.Should().Be(System.Net.HttpStatusCode.NotFound);
 

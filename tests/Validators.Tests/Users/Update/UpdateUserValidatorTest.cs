@@ -41,12 +41,12 @@ public class UpdateUserValidatorTest
     {
         var validator = new UpdateUserValidator();
         var request = RequestUpdateUserJsonBuilder.Build();
-        request.Name = email;
+        request.Email = email;
 
         var result = validator.Validate(request);
 
         result.IsValid.Should().BeFalse();
-        result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.EMAIL_EMPTY);
+        result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.EMAIL_EMPTY));
     }
 
     [Fact]
@@ -54,7 +54,7 @@ public class UpdateUserValidatorTest
     {
         var validator = new UpdateUserValidator();
         var request = RequestUpdateUserJsonBuilder.Build();
-        request.Name = "priscila.com";
+        request.Email = "priscila.com";
 
         var result = validator.Validate(request);
 

@@ -38,6 +38,7 @@ public class UpdateExpenseTest : CashFlowClassFixture
     public async Task Error_Title_Empty(string culture)
     {
         var request = RequestExpenseJsonBuilder.Build();
+        request.Title = string.Empty;
 
         var result = await DoPut(requestUri: $"{METHOD}/{_expenseId}", request: request, token: _token, culture: culture);
 

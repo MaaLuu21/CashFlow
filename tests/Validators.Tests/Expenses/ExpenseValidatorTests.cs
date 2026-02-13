@@ -4,8 +4,8 @@ using CashFlow.Exception;
 using CommonTestUtilities.requests;
 using FluentAssertions;
 
-namespace Validators.Tests.Expenses.Resgister;
-public class RegisterExpenseValidatorTests
+namespace Validators.Tests.Expenses;
+public class ExpenseValidatorTests
 {
     [Fact]
     public void Success()
@@ -13,7 +13,7 @@ public class RegisterExpenseValidatorTests
         //Arrange - parte de configurar as instancias
         var validator = new ExpenseValidator();
         //classe é static ent não precisa instanciar
-        var request = RequestExpenseBuilder.Build();
+        var request = RequestExpenseJsonBuilder.Build();
 
         //Act validar a ação
         var result = validator.Validate(request);
@@ -32,7 +32,7 @@ public class RegisterExpenseValidatorTests
 
         var validator = new ExpenseValidator();
         //classe é static ent não precisa instanciar
-        var request = RequestExpenseBuilder.Build();
+        var request = RequestExpenseJsonBuilder.Build();
         request.Title = title;
        // request.Amount = -1;// testar erro
 
@@ -51,7 +51,7 @@ public class RegisterExpenseValidatorTests
     {
         //Arrange
         var validator = new ExpenseValidator();
-        var request = RequestExpenseBuilder.Build();
+        var request = RequestExpenseJsonBuilder.Build();
         request.Date = DateTime.UtcNow.AddDays(1);//Adiciona um dia e retorna uma data futura
 
 
@@ -68,7 +68,7 @@ public class RegisterExpenseValidatorTests
     {
         //Arrange
         var validator = new ExpenseValidator();
-        var request = RequestExpenseBuilder.Build();
+        var request = RequestExpenseJsonBuilder.Build();
         request.PaymentType = (PaymentsType)700;//Tem que fazer um casting
 
         //Act validar a ação
@@ -90,7 +90,7 @@ public class RegisterExpenseValidatorTests
     {
         //Arrange
         var validator = new ExpenseValidator();
-        var request = RequestExpenseBuilder.Build();
+        var request = RequestExpenseJsonBuilder.Build();
         request.Amount = amount;
 
         //Act validar a ação
@@ -100,5 +100,23 @@ public class RegisterExpenseValidatorTests
         //Assesrt 
         result.IsValid.Should().BeFalse();
         result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.AMOUNT_MUST_BE_GREATER_THAN_ZERO)); // testa se contem somente um erro
+    }
+
+    [Fact]
+    public void Error_Tag_Invalid()
+    {
+        //Arrange
+        var validator = new ExpenseValidator();
+        var request = RequestExpenseJsonBuilder.Build();
+        request.Tags.Add((Tag)1000);
+
+
+        //Act validar a ação
+        var result = validator.Validate(request);
+
+
+        //Assesrt 
+        result.IsValid.Should().BeFalse();
+        result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.TAG_TYPE_NOT_SUPPORTED)); // testa se contem somente um erro
     }
 }
